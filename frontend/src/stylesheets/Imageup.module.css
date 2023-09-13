@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.container {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: black;
+}
+
+.firstin {
+  color: #a3b1eb;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  width: 60%;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #0f0820;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.uploaddiv {
+  margin: 3%;
+  border-radius: 25px;
+  border: 3px dashed #ae98e1ac;
+  width: 94%;
+}
+
+.firstout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.dragarea {
+  min-height: 28vh;
+}
+
+.dragarea:hover {
+  cursor: pointer;
+  background-color: #080316;
+}
+
+.dragtag {
+  font-size: 1.6rem;
+  margin-top: 3%;
+}
+
+.draginfo {
+  font-size: 0.9rem;
+  margin-top: 2%;
+  margin-bottom: 1.5%;
+}
+
+.svgimg {
+  min-height: 2vh;
+  width: 100%;
+  color: #ae98e1;
+}
+
+.error {
+  border-radius: 25px;
+  background-color: #080316;
+  width: 94%;
+  font-size: 1.3vw;
+  height: 9vh;
+  margin-bottom: 3%;
+  padding: 2%;
+  color: red;
+  text-align: center;
+}
+
+.fileinfo {
+  border-radius: 25px;
+  background-color: #080316;
+  width: 94%;
+  font-size: 1vw;
+  text-align: left;
+  transition: height 10s ease;
+  height: 10vh;
+  padding: 2%;
+  margin-bottom: 3%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1vw;
+}
+
+.fileinfo span {
+  font-size: 1.3vw;
+  width: 75%;
+}
+
+.secondout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.secondin {
+  color: #a3b1eb;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  background-color: #0f0820;
+  width: 40vw;
+  padding: 1.5% 2%;
+  border-radius: 25px;
+}
+
+.loadtext {
+  font-size: 1.55vw;
+  text-align: center;
+  margin-left: 2%;
+}
+
+.loader {
+  padding: 2%;
+}
+
+.thirdout {
+  max-height: 80vh;
+  overflow-y: hidden;
+  min-width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.thirdouter {
+  height: 100vh;
+  overflow-y: hidden;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.thirdin {
+  height: 55vh;
+  width: 30vw;
+  background-color: #0f0820;
+  border-radius: 25px;
+  color: #a3b1eb;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  padding: 1% 2% 2% 2%;
+  overflow-y: hidden;
+}
+
+.thirdin2 {
+  height: 65vh;
+  width: 60vw;
+  background-color: #0f0820;
+  border-radius: 25px;
+  color: #a3b1eb;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  padding: 1% 2% 5% 2%;
+  overflow-y: hidden;
+}
+
+.thirdscroll{
+  overflow-y: auto;
+  height: 100%;
+}
+
+.uploadedimg{
+  height: 80%;
+  width: 80%;
+  object-fit: contain;
+  margin: 5% 10% 5% 10% ;
+}
+
+.thirdhead {
+  font-size: 2vw;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.thirdtxt{
+  font-size: 1.5vw;
+  display: flex;
+  margin-top: 4%;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.thirdintxt1{
+  width: 20%;
+  text-align: justify;
+  font-weight: 500;
+}
+
+.thirdintxt2{
+  width: 70%;
+}
+
+.btncontianer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.3% 1% 1% 0;
+  margin-right: 10%;
+  align-items: start;
+}
+
+.buttons {
+  background-color: #ae98e1;
+  padding: 0.75% 1.5% 0.75% 1.5%;
+  border-color: transparent;
+  font-size: medium;
+  font-weight: 500;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  margin-left: 2%;
+  transition: ease 0.3s, box-shadow 0.3s ease;
+}
+
+.buttons2 {
+  background-color: #ae98e1;
+  padding: 0.75% 1.5% 0.75% 1.5%;
+  border-color: transparent;
+  font-size: medium;
+  font-weight: 500;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  margin-left: 2%;
+  transition: ease 0.3s, box-shadow 0.3s ease;
+}
+
+.buttons:hover {
+  box-shadow: 0px 10px 15px 1px rgba(174, 152, 225, 0.495);
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.buttonab{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding: 2%;
+}
+
+@media (orientation: portrait) {
+  .firstin {
+    width: 85%;
+  }
+
+  .uploaddiv {
+    padding: 8% 6%;
+  }
+
+  .draginfo {
+    font-size: 3.5vw;
+  }
+
+  .dragtag {
+    font-size: 5vw;
+    padding-bottom: 0.5vh;
+  }
+
+  .fileinfo span {
+    font-size: 3.5vw;
+    width: 60%;
+  }
+
+  .secondin {
+    width: 85vw;
+    padding: 2vh 3vw;
+  }
+
+  .loadtext {
+    font-size: 3.2vw;
+  }
+
+  .loadersize {
+    height: 10%;
+  }
+
+  .buttons{
+    padding: 2% 2.75% 2% 2.75% !important;
+    margin-left: 4% !important;
+  }
+
+  .buttons2{
+    padding: 1.5% 2.75% !important
+  }
+
+  .buttonab{
+    padding: 8%;
+  }
+
+  .fileinfo{
+    height: 7vh;
+  }
+
+  .error{
+    height: 7vh;
+    font-size: 3.3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .thirdout{
+    margin-top: 15%;
+    flex-direction: column-reverse;
+  }
+
+  .thirdin{
+    height: 34vh;
+    width: 80vw;
+    margin-bottom: 6%;
+  }
+
+  .thirdin2{
+    width: 80vw;
+    padding: 1% 2% 13% 2%;
+  }
+
+  .thirdhead{
+    font-size: 4vw;
+    padding-top: 2%;
+    padding-bottom: 3%;
+  }
+  
+  .uploadedimg{
+    margin-top: 1%;
+  }
+
+  .thirdtxt{
+    font-size: 3vw;
+    margin-top: 5%;
+  }
+
+  .thirdintxt1{
+    width: 26%;
+  }
+
+  .thirdintxt2{
+    width: 64%;
+  }
+
+}

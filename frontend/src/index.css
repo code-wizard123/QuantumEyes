@@ -1,0 +1,33 @@
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #95a6ec;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #576086;
+}
+
+::placeholder {
+  color: #5a5888;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #5a5888;
+}
+
+::-ms-input-placeholder {
+  color: #5a5888;
+}
+
+body {
+  background-color: black;
+}

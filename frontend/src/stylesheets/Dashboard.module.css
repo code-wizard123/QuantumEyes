@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.dashboard {
+    padding: 0.5% 3%;
+}
+
+.box {
+    width: 80vw;
+    height: 72.5vh;
+    border-radius: 2vh;
+    margin: 4vh 0;
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+}
+
+.buttons {
+    width: 12%;
+    background-color: #ae98e1;
+    padding: 0.75% 1.5% 0.75% 1.5%;
+    border-color: transparent;
+    font-size: 1.2vw;
+    font-weight: 500;
+    border-radius: 1vh;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    margin: 4vh 0 6vh 0;
+    transition: ease 0.3s, box-shadow 0.3s ease;
+}
+
+.welcomeabha {
+    margin-top: 12vh;
+    font-size: 4vh;
+    color: white;
+    width: 100%;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    transform: translate(7vw);
+}
+
+.buttons:hover {
+    box-shadow: 0px 10px 15px 1px rgba(174, 152, 225, 0.495);
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.buttonsflex {
+    display: flex;
+    justify-content: flex-end;
+    gap: 4vh;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.box .title {
+    font-size: 1.8vw;
+}
+
+.box .text {
+    font-size: 1.5vw;
+}
+
+.box img {
+    height: 25vh;
+}
+
+.box {
+    background-color: black;
+    border: 2px rgb(255, 255, 255) dashed;
+}
+
+.tablecontent {
+    height: calc(100%);
+    padding: 4vh 3vh;
+    overflow-y: hidden;
+}
+
+.tableheading {
+    margin-bottom: 3vh;
+    padding-left: 3.5vh;
+    font-size: 4vh;
+    text-shadow: 0px 0px 7px #e7bffabc;
+}
+
+.table {
+    text-align: center;
+    width: 100%;
+    overflow-y: hidden;
+    border-collapse: collapse;
+}
+
+thead {
+    height: 60px;
+    font-size: 3vh;
+}
+
+td:nth-of-type(2) {
+    width: 40%;
+}
+
+tbody>tr {
+    height: 200px;
+}
+
+td:nth-of-type(1) {
+    width: 10%;
+}
+
+td:nth-of-type(3) {
+    width: 23%
+}
+
+td:nth-of-type(4) {
+    width: 23%
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+.tableouter {
+    height: 65vh;
+    border-radius: 2vh;
+    background-color: #ffffff;
+}
+
+tbody>tr:nth-of-type(odd) {
+    background-color: #ae98e16e;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+/* ::-webkit-scrollbar-thumb {
+    background: #a44fff !important;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #c16df8 !important;
+} */
+
+@media (orientation: portrait) {
+    .table{
+        font-size: 1.25vh;
+    }
+
+    .buttonsflex {
+        gap: 2vh;
+    }
+
+    .buttons {
+        width: 35%;
+        margin: 3vh 0 3vh 0vh;
+        padding: 1.75% 1.5%;
+        font-size: 3vw;
+    }
+
+    .welcomeabha {
+        font-size: 2vh;
+    }
+
+    .box {
+        width: 95%;
+    }
+
+    .tablecontent {
+        padding: 3vh 2vh;
+    }
+
+    thead {
+        font-size: 1.5vh;
+    }
+
+    td:nth-of-type(1) {
+        width: 13%;
+    }
+
+    td:nth-of-type(2) {
+        width: 20%
+    }
+
+    td:nth-of-type(3) {
+        width: 20%
+    }
+
+    td:nth-of-type(4) {
+        width: 20%
+    }
+
+    tbody>tr {
+        height: 28vw;
+    }
+
+    .box img{
+        height: 15vw;
+    }
+}
