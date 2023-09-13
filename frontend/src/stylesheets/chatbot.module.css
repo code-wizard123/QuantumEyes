@@ -1,0 +1,87 @@
+.icon {
+    background-color: black;
+    border-radius: 100%;
+    width: 4.5vw;
+    height: 4.5vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5vw;
+    position: fixed;
+    bottom: 5%;
+    right: 3.5%;
+    z-index: 999;
+    transition: ease 0.3s, box-shadow 0.3s ease;
+}
+ 
+.icon:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 15px 0.4px rgba(233, 232, 235, 0.495);
+    transform: translateY(-5px);
+}
+ 
+.img {
+    object-fit: contain;
+    max-height: 100%;
+    max-width: 100%;
+}
+ 
+.chatcont {
+    position: fixed;
+    right: 0.75%;
+    bottom: 20vh;
+    z-index: 998;
+}
+ 
+.btncont {
+    position: fixed;
+    z-index: 999;
+    bottom: 82vh;
+    width: 4.3%;
+    padding: 1%;
+    right: 0.3%;
+}
+ 
+.button {
+    border-color: transparent;
+    font-size: medium;
+    border-radius: 10px;
+    transition: ease 0.3s, box-shadow 0.3s ease;
+    z-index: 999;
+}
+ 
+.button:hover {
+    box-shadow: 0px 0px 5px 1px rgba(233, 232, 235, 0.495);
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+ 
+.laptop {
+    display: block;
+}
+ 
+.mobile {
+    display: none;
+}
+ 
+@media (orientation: portrait) {
+    .icon {
+        width: 12vw !important;
+        height: 12vw !important;
+        right: 5% !important;
+    }
+ 
+    .laptop {
+        display: none;
+    }
+ 
+    .mobile {
+        display: block;
+    }
+ 
+    .chatcont {
+        bottom: 12vh;
+        right: 2vw;
+    }
+}

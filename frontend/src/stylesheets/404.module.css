@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.svgdiv {
+    height: 50vh;
+    width: 50vw;
+    background: url('404.svg') no-repeat center;
+    background-size: contain;
+}
+
+.content{
+    margin-top: -8%;
+}
+
+.container {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: black;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    color: #a3b1eb;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 50vw;
+    margin-top: 2%;
+}
+
+.link{
+    color: #a3b1eb;
+}

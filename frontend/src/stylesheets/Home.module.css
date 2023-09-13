@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.container {
+    position: relative;
+    min-height: 250vh;
+    min-width: 100vw;
+    overflow-y: auto;
+    background: url("final.svg") no-repeat;
+    background-size: cover;
+}
+
+.headings {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.title {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    color: #a3b1eb;
+    font-size: 6rem;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+.tagline {
+    z-index: 3;
+    margin: 0;
+    color: #a3b1eb;
+    font-size: 1.5rem;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+}
+
+.aboutus {
+    position: relative;
+    color: #a3b1eb;
+    font-family: Montserrat, sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 2%;
+    margin-left: 4%;
+}
+
+.abouttxt {
+    position: relative;
+    color: #a3b1eb;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-left: 4%;
+    width: 30vw;
+}
+
+.testedtxt {
+    position: relative;
+    color: #a3b1eb;
+    font-family: Montserrat, sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-top: 10%;
+    margin-left: 4%;
+}
+
+.steps {
+    position: relative;
+    color: #a3b1eb;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-left: 4.5%;
+    width: 30%;
+}
+
+.stepsdiv {
+    width: 70%;
+    min-height: 63vh;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.stepimg {
+    height: 40vh;
+    overflow: hidden;
+}
+
+.img {
+    height: 27vh;
+    margin-bottom: 3vh;
+    object-fit: contain;
+}
+
+.img2 {
+    height: 30vh;
+    object-fit: contain;
+}
+
+.testnow {
+    color: #a3b1eb;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.45rem;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    margin-right: 3%;
+}
+
+.stepparent {
+    width: 85%;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.steptxt {
+    color: #a3b1eb;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.45rem;
+    font-weight: 300;
+    width: 90%;
+    margin-left: 3%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.link {
+    color: #a3b1eb;
+}
+
+.mobile{
+    display: none;
+}
+
+.desktop{
+    display: block;
+}
+
+@media (orientation: portrait) {
+    .mobile{
+        display: block;
+    }
+    
+    .desktop{
+        display: none;
+    }
+
+    .container {
+        background: url("blob_portrait.svg") no-repeat;
+    }
+
+    .container .title {
+        font-size: 18vw;
+        margin-bottom: 1vh;
+    }
+
+    .container .tagline {
+        padding: 0 1.5vh;
+        font-size: 5.5vw;
+    }
+
+    .aboutdiv {
+        text-align: center;
+    }
+
+    .aboutus {
+        margin: 0;
+        margin-bottom: 2vh;
+        font-size: 14vw;
+    }
+
+    .abouttxt {
+        font-size: 6vw;
+        display: block;
+        width: 76vw;
+        margin: 0 auto;
+    }
+
+    .stepsheading {
+        text-align: center;
+        margin-top: 10vh;
+    }
+
+    .testedtxt {
+        margin: 0;
+        display: block;
+        font-size: 14vw;
+    }
+
+    .steps {
+        margin: 0;
+        width: 100vw;
+        margin: 1vh 0 4vh 0;
+    }
+
+    .stepsdiv {
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0;
+    }
+
+    .stepimg {
+        height: 20vh;
+        width: 20vh;
+        margin: 0 auto;
+    }
+
+    .img {
+        height: 20vh;
+        margin-bottom: 1vh;
+    }
+    .img2 {
+        height: 20vh;
+    }
+
+    .steptxt {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .buttons {
+        padding: 3% 5% !important;
+        font-size: 5vw !important;
+        margin: 1.5vh 4vw 0 0 !important;
+    }
+}
